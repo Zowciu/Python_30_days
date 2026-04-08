@@ -34,3 +34,7 @@ print(students_dict.keys())
 
 list_of_tuples = list(students_dict.items())
 print(list_of_tuples)
+
+students_dict["skills"].pop()
+
+print(students_dict.get("skills"))
